@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+    font-family: 'ecoicon';
+    src:url('../fonts/ecoicons/ecoicon.eot');
+    src:url('../fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ecoicons/ecoicon.woff') format('woff'),
+        url('../fonts/ecoicons/ecoicon.ttf') format('truetype'),
+        url('../fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+    background: #EE4444;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #f2ede3;
+    }
+
+h3 {
+    font-size: 2.7em;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+
+p {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-size: 1.5em;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+nav {
+    position: absolute;
+    right: 45%;
+    bottom: 20%;
+}
+
+section {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    right: 30px;
+    padding: 0 20px;
+}
+
+figure {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    right: 100px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.answer h3{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.next {
+    display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(255,255,255,0.1);
+    -webkit-transition: background 0.5s, color 0.5s;
+    -moz-transition: background 0.5s, color 0.5s;
+    transition: background 0.5s, color 0.5s;
+}
+
+.next:before {
+    font-family: 'ecoicon';
+    content: "\e010";
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+}
+
+.next:hover {
+    background: rgba(255,255,255,1);
+    color: #EE4444;
+}
+
+.backNav {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    right: 47%;
+    bottom: 28%;
+}
+
+.back {
+    padding: 6px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.back:hover {
+    color: #EE4444;
+    background: #fff;
+}
